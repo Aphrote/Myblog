@@ -25,7 +25,7 @@ module.exports = {
 
 	deploy: {
 		production: {
-			user: 'node',
+			user: 'root',
 			host: '192.168.136.129',
 			ref: 'origin/master',
             repo: 'git@github.com:Aphrote/blog.git',
