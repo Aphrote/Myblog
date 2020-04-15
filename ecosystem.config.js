@@ -28,7 +28,7 @@ module.exports = {
 			user: 'root',
 			host: '192.168.136.129',
 			ref: 'origin/master',
-            repo: 'git@github.com:Aphrote/blog.git',
+            repo: 'git@github.com:Aphrote/Myblog.git',
             path: '/usr/local/myProject',
             ssh_options:"StrictHostKeyChecking=no",
 			'post-deploy':
