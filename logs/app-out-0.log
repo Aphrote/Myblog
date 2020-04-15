@@ -1,0 +1,56 @@
+2020-04-15 18:32:43: [0mGET /api/article/allList [32m200 [0m210.133 ms - 4218[0m
+2020-04-15 18:32:43: UnauthorizedError: No authorization token was found
+    at middleware (D:\Vscode\node-demo\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\Vscode\node-demo\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\Vscode\node-demo\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-04-15 18:32:43: [0mGET /favicon.ico [33m401 [0m8.395 ms - 37[0m
+2020-04-15 21:19:39: UnauthorizedError: No authorization token was found
+    at middleware (D:\Vscode\node-demo\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\Vscode\node-demo\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\Vscode\node-demo\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-04-15 21:19:39: [0mGET /favicon.ico [33m401 [0m27.849 ms - 37[0m
+2020-04-15 21:53:33: [0mGET /api/article/allList [36m304 [0m185.844 ms - -[0m
+2020-04-15 21:53:33: UnauthorizedError: No authorization token was found
+    at middleware (D:\Vscode\node-demo\server\node_modules\express-jwt\lib\index.js:76:21)
+    at D:\Vscode\node-demo\server\node_modules\express-unless\index.js:47:5
+    at Layer.handle [as handle_request] (D:\Vscode\node-demo\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:317:13)
+    at D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Vscode\node-demo\server\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (D:\Vscode\node-demo\server\node_modules\send\index.js:270:17) {
+  name: 'UnauthorizedError',
+  message: 'No authorization token was found',
+  code: 'credentials_required',
+  status: 401,
+  inner: { message: 'No authorization token was found' }
+}
+2020-04-15 21:53:33: [0mGET /favicon.ico [33m401 [0m5.103 ms - 37[0m
