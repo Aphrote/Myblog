@@ -34,8 +34,8 @@ app.use(
 			'/api/user/login',
 			'/api/user/upload',
 			'/api/article/allList',
-            '/api/article/detail',
-            '/api/article/list'
+			'/api/article/detail',
+			'/api/article/list',
 		],
 	})
 )
